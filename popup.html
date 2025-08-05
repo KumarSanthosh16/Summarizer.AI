@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8" />
+    <title>AI Summary</title>
+    <style>
+      body {
+        font-family: Inter, sans-serif;
+        width: 300px;
+        padding: 10px;
+      }
+    </style>
+  </head>
+  <body
+    style="
+      background-color: #d9d9d9;
+      border-radius: 12px;
+      padding: 0;
+      margin: 0;
+    "
+  >
+    <h3
+      style="
+        /* color: #9000ff; */
+        font-size: 16px;
+        font-weight: 600;
+        background-color: aliceblue;
+        padding: 10px;
+        margin: 0;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+        background-image: linear-gradient(
+          to left,
+          #610780,
+          #5d309e,
+          #524cba,
+          #127eeb
+        );
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+      "
+    >
+      <img
+        src="./icons/logo-icon.png"
+        alt="AI Summarizer"
+        width="20px"
+        height="20px"
+      />
+      AI Summarizer
+    </h3>
+    <div
+      id="summary"
+      style="
+        overflow-y: auto;
+        max-height: 300px;
+        font-size: 14px;
+        font-weight: 400;
+        padding: 10px;
+        margin: 10px;
+        background-color: #ffffff;
+        border-radius: 12px;
+      "
+    >
+      Loading...
+    </div>
+    <script src="popup.js"></script>
+  </body>
+</html>
